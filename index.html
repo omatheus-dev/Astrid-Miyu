@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrid & Miyu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Astrid & Miyu</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a joalheria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bag-check me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>   
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div id="carousel-images">
+                <img src="images/slides/slide1.jpg" alt="">
+                <img src="images/slides/slide2.jpg" alt="">
+                <img src="images/slides/slide3.jpg" alt="">
+            </div>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/joalheria.jpg" class="d-block w-100" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a joalheria</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut explicabo facilis obcaecati voluptatibus non dolor nostrum recusandae esse debitis rerum ab, ducimus nulla quisquam, magnam dolorum perferendis quis neque assumenda.
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">os produtos</span></h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat molestias corporis maxime, voluptas dolor sunt, odit voluptatum et nemo quis quam at facere tempora necessitatibus voluptates ratione praesentium quos recusandae?
+                        </p>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button data-bs-toggle="tab" data-bs-target="#aneis" type="button" class="fw-bold text-start nav-link text-colored active">Anéis</button>
+                            <button data-bs-toggle="tab" data-bs-target="#colares" type="button" class="fw-bold text-start nav-link text-colored">Colares</button>
+                            <button data-bs-toggle="tab" data-bs-target="#correntes" type="button" class="fw-bold text-start nav-link text-colored">Corrente para perna</button>
+                            <button data-bs-toggle="tab" data-bs-target="#pulseiras" type="button" class="fw-bold text-start nav-link text-colored">Pulseiras</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aneis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/aneis/anel1.jpg" alt="Anéis" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Anéis minimalistas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/aneis/anel2.jpg" alt="Anéis" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Joias escuras</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/aneis/anel1.jpg" alt="Anéis" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Anéis minimalistas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="colares">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/colar/colar1.jpg" alt="Colar" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Colar lunar</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/colar/colar2.jpg" alt="Colar" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Colares diversos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/colar/colar3.jpg" alt="Colar" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Colar minimalista</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/colar/colar2.jpg" alt="Colar" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Colares diversos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="correntes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/fitas/fita1.jpg" alt="Corrente para perna" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Corrente de ouro para perna</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/fitas/fita2.jpg" alt="Corrente para perna" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Corrente de prata para perna</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pulseiras">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/pulseiras/pulseira1.jpg" alt="Pulseira" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Pulseira minimalista</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/joias/pulseiras/pulseira2.jpg" alt="Pulseira" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Pulseira moderna</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Fale <span class="text-colored">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="text-colored fw-bold form-label" required>Seu nome:</label>
+                                <input type="text" id="nome" nome="nome" class="form-control">
+                            </div> 
+                            <div class="mb-3">
+                                <label for="email" class="text-colored fw-bold form-label" required>Seu e-mail:</label>
+                                <input type="email" id="email" nome="email" class="form-control" placeholder="exemplo@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="text-colored fw-bold form-label">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" nome="telefone" class="form-control" placeholder="(00) 00000-0000" onkeypress="$(this).mask(`(00) 00000-0000`)">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="text-colored fw-bold form-label" required>Sua mensagem:</label>
+                                <textarea id="mensagem" nome="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li><a href="#">
+                                    <i class="bi bi-facebook text-colored fs-5"></i>
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="bi bi-instagram text-colored fs-5 ms-2 me-2"></i>
+                                </a></li>
+                                <li><a href="#">
+                                    <i class="bi bi-whatsapp text-colored fs-5"></i>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua JavaScript, Bairro bootstrap n°123 - São Paulo (SP)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
